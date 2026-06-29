@@ -1,18 +1,19 @@
 {
-  "mode": "private",
-  "sources": {
-    "axekin": {
+  "name": "Axekin",
+  "version": "1.0",
+  "sources": [
+    {
+      "id": "axekin",
       "enabled": true,
       "baseUrl": "https://www.axekin.com",
       "endpoint": "/api/event",
       "method": "GET",
-      "query": "q",
+      "queryParam": "q",
       "responseType": "json",
-      "resultsPath": "data",
       "mapping": {
         "title": "name",
         "download": "download_url"
       }
     }
-  }
+  ]
 }
