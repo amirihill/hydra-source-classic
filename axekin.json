@@ -1,19 +1,14 @@
 {
   "name": "Axekin",
-  "version": "1.0",
-  "sources": [
-    {
-      "id": "axekin",
-      "enabled": true,
-      "baseUrl": "https://www.axekin.com",
-      "endpoint": "/api/event",
-      "method": "GET",
-      "queryParam": "q",
-      "responseType": "json",
-      "mapping": {
-        "title": "name",
-        "download": "download_url"
-      }
-    }
-  ]
+  "enabled": true,
+  "baseUrl": "https://www.axekin.com",
+  "endpoint": "/api/event",
+  "method": "GET",
+  "query": "q",
+  "responseType": "json",
+  "resultsPath": "data",
+  "mapping": {
+    "title": "name",
+    "download": "download_url"
+  }
 }
