@@ -6,7 +6,7 @@
   "method": "GET",
   "query": "q",
   "responseType": "json",
-  "resultsPath": "data",
+  "results": "data",
   "mapping": {
     "title": "name",
     "download": "download_url"
